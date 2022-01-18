@@ -1,5 +1,5 @@
 {
-    "name": "clouding/presto-client-php",
+    "name": "clouding/presto-php-client",
     "description": "Presto client library for PHP.",
     "keywords": ["presto", "http", "library"],
     "type": "library",
