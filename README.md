@@ -18,7 +18,7 @@ A [Presto](https://prestodb.io) client for the [PHP](http://www.php.net/) progra
 ## Installation
 
 ```
-composer require clouding/presto-client-php
+composer require zenghuaming/presto-php-client
 ```
 
 ## Quick Start
@@ -98,7 +98,7 @@ $presto->setAsGlobal();
 $connections = Presto::getConnections();
 
 // Specify connection
-$posts = Presto::query('SELECT * FROM posts', 'presto2')->get();
+$posts = Presto::query('SELECT * FROM posts', 'presto2')->getAssoc();
 ```
 
 ## Running Tests
