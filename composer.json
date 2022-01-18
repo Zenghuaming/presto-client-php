@@ -1,12 +1,12 @@
 {
-    "name": "clouding/presto-php-client",
+    "name": "cloud/presto-php-client",
     "description": "Presto client library for PHP.",
     "keywords": ["presto", "http", "library"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Clouding1",
+            "name": "Cloud",
             "email": "ghost0436@gmail.com"
         }
     ],
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Clouding\\Presto\\": "src/"
+            "Cloud\\Presto\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Clouding\\Presto\\Tests\\": "tests/"
+            "Cloud\\Presto\\Tests\\": "tests/"
         }
     },
     "config": {
